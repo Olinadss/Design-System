@@ -1,23 +1,6 @@
 {
-  "name": "@brisa-ui/tokens",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Olinadss/Design-System.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Olinadss/Design-System/issues"
-  },
-  "homepage": "https://github.com/Olinadss/Design-System#readme",
-  "devDependencies": {
-    "typescript": "^5.0.2"
-  }
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
